@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Add Student
+        </title>
+    </head>
+    <style>
+        body {background-color: #fae6ff}
+        h1   {color: #8000ff;
+            text-align: center;
+        }
+        .hi   {color: #8000ff;
+                 text-align: center;
+
+        }
+        .but{
+            
+            background-color: #008CBA;
+            font-size: 30px;
+        
+        }
+        </style>
+
+    <body>
+        <h1>Student</h1>
+        <br>
+        <form action="/api/students/create" method="post" class="hi">
+            <img src="undergraduates.jpg">
+            <br>
+            <label class="hi"> Name</label>
+            <br>
+            <input type="text"  name="name">
+            <br>
+            <br>
+            <label class="hi"> Code</label>
+            <br>
+            <input type="text"  name="code">
+            <br>
+            <br>
+            <br>
+            <button class="but">submit</button>
+        </form>
+    </body>
+
+
+</html>

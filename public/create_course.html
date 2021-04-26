@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Add Course
+        </title>
+    </head>
+    <style>
+        body {background-color: #fae6ff}
+        h1   {color: #8000ff;
+            text-align: center;
+        }
+        .hi   {color: #8000ff;
+                 text-align: center;
+
+        }
+        .but{
+            
+            background-color: #008CBA;
+            font-size: 30px;
+        
+        }
+        </style>
+
+    <body>
+        <h1>Course</h1>
+        <br>
+        <form action="/api/courses/create" method="post" class="hi">
+            <img src="depositphotos_122055684-stock-photo-young-girl-working-with-computer.jpg">
+            <br>
+            <label class="hi">Course Name</label>
+            <br>
+            <input type="text" name="name" >
+            <br>
+            <br>
+            <label class="hi">Course Code</label>
+            <br>
+            <input type="text"  name="code" >
+            <br>
+            <br>
+            <label class="hi"> Description</label>
+            <br>
+            <textarea name="description" cols="40" rows="5"></textarea>
+            <br>
+            <br>
+            <br>
+            <button class="but">submit</button>
+        </form>
+    </body>
+
+
+</html>
